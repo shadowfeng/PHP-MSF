@@ -10,8 +10,8 @@
     
     增加 extension=swoole.so
 2 安装mogondb扩展 (1.3.0 异常)
-
+    wget http://pecl.php.net/get/mongodb-1.2.8.tgz
 3 安装yac扩展
-
+    wget https://github.com/laruence/yac/archive/yac-2.0.2.tar.gz
 4 安装inotify扩展
-    yum -y install inotify-tools
+    下载地址 http://pecl.php.net/package/inotify
