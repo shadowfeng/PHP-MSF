@@ -1,0 +1,17 @@
+1 安装swoole扩展 (1.9版本)
+    下载源文件 :https://github.com/swoole/swoole-src/releases
+    cd swoole
+    phpize
+    ./configure
+    make 
+    sudo make install
+    找到已经加载的配置文件,添加扩展
+    vim /usr/local/lib/php.ini  
+    
+    增加 extension=swoole.so
+2 安装mogondb扩展 (1.3.0 异常)
+
+3 安装yac扩展
+
+4 安装inotify扩展
+    yum -y install inotify-tools
