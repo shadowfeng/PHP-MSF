@@ -2,8 +2,9 @@
     下载源文件 :https://github.com/swoole/swoole-src/releases
     cd swoole
     phpize
-    ./configure
-    make 
+    ./configure --enable-async-redis
+    make clean
+    make -j
     sudo make install
     找到已经加载的配置文件,添加扩展
     vim /usr/local/lib/php.ini  
@@ -17,3 +18,5 @@
     下载地址 http://pecl.php.net/package/inotify
 5 安装hiredis
    wget -O hiredis-0.13.3.tar.gz https://github.com/redis/hiredis/archive/v0.13.3.tar.gz
+   
+   
